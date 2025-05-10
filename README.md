@@ -1,38 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏎️ AutoVault
 
-## Getting Started
+Hey there! Welcome to AutoVault - our little corner of the blockchain where car enthusiasm meets digital collecting.
 
-First, run the development server:
+## What's this all about?
+
+I've always been passionate about cars. From the first poster I hung on my wall (a Lamborghini Countach, if you're curious) to countless hours spent researching specs and histories. I wanted to create a space where fellow car lovers could collect and trade pieces of automotive history in digital form.
+
+That's how AutoVault was born.
+
+## What you'll find here
+
+We've organized our collections into three main categories:
+
+- **Classics** - Those timeless beauties that make you stop and stare. The curves of a '63 Corvette, the elegance of an E-Type Jag... you know the ones.
+- **Supercars** - The speed demons. The bedroom poster legends. The ones that make you wonder if 700+ horsepower is really necessary (it absolutely is).
+- **Concept Cars** - The dreamers. The "what ifs" of automotive design that push boundaries and imagine what could be.
+
+## Getting started is simple
+
+1. Connect your wallet (we use Keplr)
+2. Browse around and find cars that speak to you
+3. Place a bid or buy one outright
+4. Show off your digital garage to friends!
+
+## Under the hood
+
+We built this on Andromeda Protocol because it makes the Web3 experience smooth, even if you're not a crypto expert. Our smart contracts are running on the Stargaze blockchain (Elgafar-1 testnet for now).
+
+Each car NFT includes detailed specs, history, and high-quality imagery. We're working on adding engine sounds in the future too!
+
+## For the technically curious
+
+If you want to tinker with the code:
 
 ```bash
+# Clone our repo
+git clone https://github.com/your-username/autovault.git
+
+# Install what you need
+cd autovault
+npm install
+
+# Fire it up locally
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Check out the `config.ts` file if you want to see how the collections are set up.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Future Plans
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+3D car models
+Engine sound clips
+Car manufacturer partnerships
+Mobile app
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Contact Information
 
-## Learn More
+For any questions or further information:
+Email: merttopcu.dev@gmail.com
+LinkedIn: https://www.linkedin.com/in/mert-topcu/
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## Licensing
-
-[Terms and Conditions](https://github.com/andromedaprotocol/andromeda-core/blob/development/LICENSE/LICENSE.md)
+Built during Rise In Bootcamp with ❤️ and Andromeda
