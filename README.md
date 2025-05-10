@@ -35,10 +35,10 @@ If you want to tinker with the code:
 
 ```bash
 # Clone our repo
-git clone https://github.com/your-username/autovault.git
+git clone https://github.com/your-username/RiseInBootcampMertTopcu.git
 
 # Install what you need
-cd autovault
+cd RiseInBootcampMertTopcu
 npm install
 
 # Fire it up locally
